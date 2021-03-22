@@ -1,0 +1,11 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Alexa LeapMotion VR.unity
+    guid: c28c3cb13f8e5bc4ea25d9fa7eafe6ac
+  m_configObjects: {}
