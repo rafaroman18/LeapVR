@@ -57,16 +57,20 @@ First of all I created a **Unity project** where I inserted the **Oculus** and *
   <figcaption>Asset source: Creepy Cat - 3D Scifi Kit Starter Kit 3D model 2020 </figcaption>
 </figure>
 
+<br>
+
 <figure>
   <img src="./images/entornodos.png" width="700">
   <figcaption>Asset source: MesnikAnd - Modular warehouse Free low-poly 3D model 2020 </figcaption>
 </figure>
+
+<br>
 
 <figure>
   <img src="./images/entornotres.png" width="700">
   <figcaption>Asset source: OnkarShevkar - Low Poly Buildings Free low-poly 3D model 2017 </figcaption>
 </figure>
 
-
+<br>
 
 
