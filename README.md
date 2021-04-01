@@ -1,5 +1,9 @@
 # **Development of Virtual Environments for Didactics Purposes in Companies**
 
+### This work was made as a **Final Degree Project** of **Computer Engineering Sciences** at **Escuela Superior de Ingeniería (UCA).** - 2021
+
+<br>
+
 ## **Abstract**
 
 Due to the growth of technology, human being is capable of interacting with a virtual system in many differents ways, either with our own hands as in the case of the device **Leap Motion**, with our voice (**Alexa**, **Amazon's Echo Dot**), etc. We can even visualize an environment as if we were there with the virtual reality headset **Oculus Rift**. 
@@ -17,8 +21,6 @@ This work will deepen in this topic because our intention is to create an enviro
 * **Leap Motion VR Adapter**
 * **Oculus Rift CV1**
 
-![](./images/tfgmateriales.png)
-
 ## **Software**
 
 * **Unity**
@@ -28,7 +30,7 @@ This work will deepen in this topic because our intention is to create an enviro
 
 ## **Development**
 
-This work was made as a **Final Degree Project** of **Computer Engineering Sciences** at **Escuela Superior de Ingeniería (UCA).**
+
 
 <br>
 
@@ -40,13 +42,30 @@ These technologies are:
 * Oculus Rift CV1 &rarr; **VR Headset**
 * Leap Motion &rarr; **Hands Tracker** 
 
+<figure>
+  <img src="./images/tfgmateriales.png" width="350">
+  <figcaption> </figcaption>
+</figure>
+
 With **Alexa** the user will be capable of creating things or starting simulations through voice commands. VR Headset **Oculus Rift** will allow the user to see the environment from a realistic perspective and even move in it. Finally, **Leap Motion** captures the position of the hand (and fingers) and let the users interact with the objects from our virtual environment without a physical controller.
 
-<br>
+First of all I created a **Unity project** where I inserted the **Oculus** and **Leap Motion** *assets* and I designed a a pleasant background and 2 industrial background so the user could feel more comfortable or even more inmmersed in the industrial simulations. The objects and materials for the backgrounds were extracted of *free assets*.
 
 
+<figure>
+  <img src="./images/entornoinicial.png" width="500">
+  <figcaption>Asset source: Creepy Cat - 3D Scifi Kit Starter Kit 3D model 2020 </figcaption>
+</figure>
 
+<figure>
+  <img src="./images/entornodos.png" width="500">
+  <figcaption>Asset source: MesnikAnd - Modular warehouse Free low-poly 3D model 2020 </figcaption>
+</figure>
 
+<figure>
+  <img src="./images/entornotres.png" width="500">
+  <figcaption>Asset source: OnkarShevkar - Low Poly Buildings Free low-poly 3D model 2017 </figcaption>
+</figure>
 
 
 
