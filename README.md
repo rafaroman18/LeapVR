@@ -28,11 +28,18 @@ This work will deepen in this topic because our intention is to create an enviro
 * **CloudAMQP**
 * **Alexa Skill Kit**
 
+## **Interaction Diagram**
+
+<figure>
+  <img src="./images/diagramainteraccion.png" width="800">
+  <figcaption> </figcaption>
+</figure>
+
+
 ## **Development**
-
-
-
 <br>
+
+### **Virtual Environment**
 
 The initial idea of the project was to made a prototype of virtual environment so workers from companies can learn in an efficient way how to carry out some processes. To make our virtual environment very efficient and intuitive we will use some technologies that will allow the user to make certain actions without effort.
 
@@ -78,4 +85,22 @@ First of all I created a **Unity project** where I inserted the **Oculus** and *
 
 <br>
 
+Next I created some objects based on **tetris blocks**. These objects have physics (*gravity, collisions...*) and have interactions with our own hands thanks to the **Leap Motion**.
+
+<figure>
+  <img src="./images/idtetris.png" width="700">
+  <figcaption> </figcaption>
+</figure>
+
+<br>
+
+### **Alexa Infraestructure**
+
+Once the Virtual Environment was setted, I created an infraestructure where the user can modify the environment through Alexa. To make this I used my own skill for this project (**Objetos V. R.**)
+
+
+<figure>
+  <img src="./images/esquemamensaje.png" width="800">
+  <figcaption> </figcaption>
+</figure>
 
