@@ -52,23 +52,28 @@ With **Alexa** the user will be capable of creating things or starting simulatio
 First of all I created a **Unity project** where I inserted the **Oculus** and **Leap Motion** *assets* and I designed a a pleasant background and 2 industrial background so the user could feel more comfortable or even more inmmersed in the industrial simulations. The objects and materials for the backgrounds were extracted of *free assets*.
 
 
+<br>
+&nbsp; Asset source: Creepy Cat - 3D Scifi Kit Starter Kit 3D model 2020
 <figure>
   <img src="./images/entornoinicial.png" width="700">
-  <figcaption>Asset source: Creepy Cat - 3D Scifi Kit Starter Kit 3D model 2020 </figcaption>
+  <figcaption> </figcaption>
 </figure>
 
 <br>
 
+<br>
+&nbsp; Asset source: MesnikAnd - Modular warehouse Free low-poly 3D model 2020
 <figure>
   <img src="./images/entornodos.png" width="700">
-  <figcaption>Asset source: MesnikAnd - Modular warehouse Free low-poly 3D model 2020 </figcaption>
+  <figcaption> </figcaption>
 </figure>
 
 <br>
 
+&nbsp; Asset source: OnkarShevkar - Low Poly Buildings Free low-poly 3D model 2017
 <figure>
   <img src="./images/entornotres.png" width="700">
-  <figcaption>Asset source: OnkarShevkar - Low Poly Buildings Free low-poly 3D model 2017 </figcaption>
+  <figcaption> </figcaption>
 </figure>
 
 <br>
