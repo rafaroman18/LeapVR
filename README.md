@@ -103,11 +103,13 @@ Next I created some objects based on **tetris blocks**. These objects have physi
 
 ### **Alexa Infraestructure**
 
-Once the Virtual Environment was setted, I created an infraestructure where the user can modify the environment through Alexa. To make this I used my own skill for this project (**Objetos V. R.**)
+Once the Virtual Environment was setted, I had to create an infraestructure where the user can modify the environment through Alexa. To make this I made my own **alexa skill** for this project (**Objetos V. R.**) and create a **queue** in the cloud (using **CloudAMQP**) where the messages will be stored.
 
 
 <figure>
   <img src="./images/esquemamensaje.png" width="800">
   <figcaption> </figcaption>
 </figure>
+
+So as we see in the last figure, the infraestructure consists in our skill (Objetos V.R.) choosing a message which sums up the action that the user asked to Alexa for the environment and sending it to an AWS Lambda function (because we can only use the default javascript packages inside Alexa).
 
