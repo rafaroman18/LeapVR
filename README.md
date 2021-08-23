@@ -4,12 +4,6 @@
 
 <br>
 
-## **Final Result**
-
-https://user-images.githubusercontent.com/33625416/130407194-be3cf021-078f-4ef7-af3f-bcbead383aa4.mp4
-
-<br>
-
 ## **Abstract**
 
 Due to the growth of technology, human being is capable of interacting with a virtual system in many differents ways, either with our own hands as in the case of the device **Leap Motion**, with our voice (**Alexa**, **Amazon's Echo Dot**), etc. We can even visualize an environment as if we were there with the virtual reality headset **Oculus Rift**. 
@@ -34,13 +28,20 @@ This work will deepen in this topic because our intention is to create an enviro
 * **CloudAMQP**
 * **Alexa Skill Kit**
 
+<br>
+
+## **Demonstration**
+
+https://user-images.githubusercontent.com/33625416/130407194-be3cf021-078f-4ef7-af3f-bcbead383aa4.mp4
+
 ## **Interaction Diagram**
 
 <figure>
-  <img src="./images/diagramainteraccion.png" width="800">
+  <img src="./images/diagramainteraccion.png" width="850">
   <figcaption> </figcaption>
 </figure>
 
+<br>
 
 ## **Development**
 <br>
