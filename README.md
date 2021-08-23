@@ -2,8 +2,6 @@
 
 ### This work was made as a **Final Degree Project** of **Computer Engineering Sciences** at **Escuela Superior de Ingeniería (UCA).** - 2021
 
-<br>
-
 ## **Demonstration**
 
 https://user-images.githubusercontent.com/33625416/130407194-be3cf021-078f-4ef7-af3f-bcbead383aa4.mp4
