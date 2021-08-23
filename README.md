@@ -4,6 +4,12 @@
 
 <br>
 
+## **Final Result**
+
+
+
+<br>
+
 ## **Abstract**
 
 Due to the growth of technology, human being is capable of interacting with a virtual system in many differents ways, either with our own hands as in the case of the device **Leap Motion**, with our voice (**Alexa**, **Amazon's Echo Dot**), etc. We can even visualize an environment as if we were there with the virtual reality headset **Oculus Rift**. 
