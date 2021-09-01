@@ -101,7 +101,7 @@ Next I created some objects based on **tetris blocks**. These objects have physi
 
 <br>
 
-### **Alexa Infraestructure**
+### **Infraestructure**
 
 Once the Virtual Environment was setted, I had to create an infraestructure where the user can modify the environment through Alexa. To make this I made my own **alexa skill** for this project (**Objetos V. R.**) and create a **queue** in the cloud (using **CloudAMQP**) where the messages will be stored.
 
@@ -118,8 +118,14 @@ So as we see in the last figure, this infraestructure consists in some technolog
 3.  **CloudAMQP:** stores the messages in the cloud waiting for our environment to receive them. 
 4.  **Unity:** receives the messages using a library similar to **amqplib** for C#. Next, depending on the message a specific action will be done on theenvironment. We use CloudAMQP for storing messages because it uses the **Message Queue method** which allows us to receive messages without spending a lot of resources from our environment. Apart from receiving messages and doing actions, Unity also interacts with both Oculus Rift headset and Leap Motion simultaneously.
 
+### **Alexa Skill**
 
-SKILLS DIALOGUES
+The **Alexa skill** that I mentioned befaore has a few actions available for the user:
+
+1. **Create a block:** creates a block in the environment with the color the user provided
+2. **Remove a block:** every block we create by the last method contains an ID, so the user can provide that ID to refer to the block and remove it
+3. **Change the environment:** changes the background of the project with the 3 mentioned before 
+4. 
 
 
 ### **Simulations**
