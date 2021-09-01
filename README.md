@@ -114,18 +114,21 @@ Once the Virtual Environment was setted, I had to create an infraestructure wher
 So as we see in the last figure, this infraestructure consists in some technologies:
 
 1.  **Alexa:** creates a message which sums up the action that the user asked in their dialogue and sends it by a POST method to an **AWS Lambda Function**.
-2.  **AWS Lambda:** this technology is implemented in our infraestructure because we use a non-native library called **amqplib** and Alexa only allows default libraries for Javascript, so we had to figure out another way to send our message to the queue. The solution was creating an AWS Lambda function which keeps listening (API Rest structure) and when receive a message (by a POST operation from Alexa) will execute the code from amqplib and put the message in the queue.
+2.  **AWS Lambda:** this technology is implemented in our infraestructure because we use a non-native library called **amqplib** to uploads messages in the queue and Alexa only allows default libraries for Javascript, so we had to figure out another way to send our message to the queue. The solution was creating an AWS Lambda function which keeps listening (API Rest structure) and when receive a message (by a POST operation from Alexa) will execute the code from amqplib and put the message in the queue.
 3.  **CloudAMQP:** stores the messages in the cloud waiting for our environment to receive them. 
-4.  **Unity:** receives the messages using a library similar to **amqplib** for C#. Next, depending on the message a specific action will be done on theenvironment. We use CloudAMQP for storing messages because it uses the **Message Queue method** which allows us to receive messages without spending a lot of resources from our environment. Apart from receiving messages and doing actions, Unity also interacts with both Oculus Rift headset and Leap Motion simultaneously.
+4.  **Unity:** receives the messages using a library similar to **amqplib** for C#. Next, depending on the message a specific action will be done on the environment. We use CloudAMQP for storing messages because it uses the **Message Queue method** which allows us to receive messages without spending a lot of resources from our environment. Apart from receiving messages and doing actions, Unity also interacts with both Oculus Rift headset and Leap Motion simultaneously.
 
 ### **Alexa Skill**
 
-The **Alexa skill** that I mentioned befaore has a few actions available for the user:
+The **Alexa skill** we created for this project is called **Objetos V.R.** and was developed with *Javascript*. This skill has a few actions availables:
 
 1. **Create a block:** creates a block in the environment with the color the user provided
 2. **Remove a block:** every block we create by the last method contains an ID, so the user can provide that ID to refer to the block and remove it
 3. **Change the environment:** changes the background of the project with the 3 mentioned before 
-4. 
+4. **Simulations:** as we said, the main purpose of this project is to teach employees on a certain process of a company, so every simulation we introduce can lead the user to learn how to do a process properly. We will deepen in every simulation in the next section.
+5. **Object Generation:** the user provides the name of an object and our environment searches for it in a 3D model collection on the internet. If the object is available it will be introduced on the environment. We will deepen in this method in the next sections.
+
+For development purposes the skill is not available to download. This is because every person that had used this skill could have made actions on our environment.
 
 
 ### **Simulations**
