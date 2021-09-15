@@ -135,3 +135,8 @@ For development purposes the skill is not available to download. This is because
 
 
 ### **Object Generation**
+
+
+### LICENSE
+
+MIT License - Copyright (c) 2021 [Rafa Román](https://github.com/rafaroman18)
