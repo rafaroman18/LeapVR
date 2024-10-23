@@ -133,8 +133,16 @@ For development purposes the skill is not available to download. This is because
 
 ### **Simulations**
 
+TicTacToe with Artificial Intelligence as the opponent. The goal is to demonstrate that we can integrate artificial intelligent models into these environments to teach correctly to workers.
+
+![Alt text](image.png)
+
 
 ### **Object Generation**
+
+In the object generation, we ask for a certain thing (in the image we ask for 'cat'), then we connect to the API of a 3D models database and search for a model with greatest reviews. We download it and once is loaded in the environment, we can select its size with the bar and button we have at the right bottom. Finally, when we select the desired size, push the green button on the left and we can interact with the object.
+
+![Alt text](image-1.png)
 
 
 ### LICENSE
